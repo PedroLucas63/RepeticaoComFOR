@@ -26,7 +26,7 @@ namespace Urna
             var candidatos = new List<Candidato>();
 
             //Variáveis dos dados de cada candidato:
-            string id, nome, disciplina;
+            string? id, nome, disciplina;
             int idade;
 
             //Variável que verifica se um candidato tem o ID de outro:
@@ -118,7 +118,7 @@ namespace Urna
             char continuar;
 
             //Recebe o voto:
-            string voto;
+            string? voto;
 
             //Faz a verificação se já houve voto da pessoa:
             bool votado;
